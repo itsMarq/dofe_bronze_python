@@ -1,0 +1,12 @@
+print('--- Predstav sa ---')
+meno = input('Ako sa voláš? ')
+mesto = input('Z akého mesta pochádzaš? ')
+vek = int(input('Koľko máš rokov? '))
+hobby = input('Čo ťa baví? ')
+
+print()
+print('Ahoj,', meno + '!')
+print('Pochádzaš z mesta', mesto, 'a máš', vek, 'rokov.')
+print('Baví ťa:', hobby)
+print('Za 10 rokov budeš mať', vek + 10, 'rokov.')
+print('Narodil si sa v roku', 2026 - vek)
